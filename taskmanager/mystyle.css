@@ -1,0 +1,63 @@
+/*universal*/
+body{
+    background-image: url(./backgroundimage2.jpg);
+    background-repeat: no-repeat;
+    height: cover;
+    width: 478.031;
+}
+.container-fluid{
+    display: flex;
+}
+/*list*/
+#list{
+    flex: 4;
+    border-right: purple solid;
+    margin-right: .5rem;
+    color: white;
+    font-weight: 400;
+}
+#list h3{
+    background-color: purple;
+    width:30%;
+    margin-left: .5rem;
+    border: .3rem black;
+    border-radius: 25px;
+    padding-left: 1rem;
+    padding-bottom: .3rem;
+}
+/*capture form*/
+#capture-form{
+    flex: 3;
+}
+#important{
+    font-size: 32px;
+    cursor: pointer;
+}
+#btnSave{
+    margin-top: 1rem;
+}
+.form-label{
+    font-weight: bold;
+    margin-left: .1rem; 
+}
+/*displayTask function*/
+.task{
+    display: flex;
+    margin: 1rem .5rem;
+    border-bottom: dashed 2px purple;
+}
+.task .important{
+    flex: 1;
+}
+.task .description{
+    flex: 5;   
+}
+.task .due-date{
+    flex: 2;
+}
+.task .location{
+    flex: 2;
+}
+.btn-danger{
+    margin-bottom: .8rem;
+}
